@@ -11,30 +11,90 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <title>Hello, world!</title>
+
+    <style>
+        .carousel_max {
+            max-width: 50vw;
+            max-height: 50vh;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .carousel_max img {
+            object-fit: cover;
+            object-position: 50% 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>Bootstrap Example</h1>
+            <h1 class="display-1">The Beatles</h1>
         </header>
 
-        <div class="row">
+        
+
+        <!-- <div id="hero" class="row">
+
+            <div id="carouselExampleControls" class="carousel slide carousel_max" data-bs-ride="carousel">
+                <div class="carousel-inner w-100 h-100">
+                    <div class="carousel-item active w-100 h-100">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/The_Fabs.JPG"
+                            class="d-block  w-100 h-100" alt="The Beatles with those cracking haircuts">
+                    </div>
+                    <div class="carousel-item w-100 h-100">
+                        <img src="https://cdn.britannica.com/18/136518-050-CD0E49C6/The-Beatles-Ringo-Starr-Paul-McCartney-George.jpg"
+                            class="d-block w-100 h-100" alt="Cracking muttonchops gang!">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div> -->
+
+        <!-- <div class="row">
             <div class="col-8">
                 <main>
-                    <img class="w-100"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
-                        alt="image created with a mobile" />
+
+                    <iframe  class="w-100" width="560" height="315" src="https://www.youtube.com/embed/A_MjCqQoLLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                 </main>
             </div>
 
             <div class="col-4">
                 <aside>
-                    This is where some other info goes
+                    <h2 class="display-6">Tour dates</h2>
+                    <ul>
+                        <li>Leeds - 10th Jan</li>
+                        <li>Liverpool - 11th Jan</li>
+                        <li>Manchester - 12th Jan</li>
+                        <li>Stockholm - 1st Feb</li>
+                        <li>Paris - 2nd Feb</li>
+                    </ul>
                 </aside>
             </div>
-        </div>
+        </div> -->
 
+
+        <div class="row">
+            
+            <div class="col" style="background-color: purple;">3</div>
+            <div class="col" style="background-color: aqua;">2</div>
+            <div class="col" style="background-color: red;">1</div>
+
+        </div>
 
 
         <footer class="container">
