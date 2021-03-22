@@ -10,7 +10,7 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <style>
-        header {
+        /* header {
             margin-bottom: 5vh;
         }
 
@@ -51,33 +51,40 @@
             padding: 5%;
             float: left;
 
-        }
+        } */
     </style>
 </head>
 
 <body>
 
-    <header>
+    <header class="container">
         <h1>Bootstrap Example</h1>
     </header>
-    <div class="main-container">
-        <main>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
-                alt="image created with a mobile" />
-        </main>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <main>
+                    <img  class="w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+                        alt="image created with a mobile" />
+                </main>
+            </div>
 
-        <aside>
-            This is where some other info goes
-        </aside>
-    </div>
+            <div class="col-4">
+                <aside>
+                    This is where some other info goes
+                </aside>
+                </div>
+            </div>
+        </div>
 
-    <footer>
-        © Me, 1999
-    </footer>
+        
+        <footer class="container">
+            © Me, 1999
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
