@@ -6,20 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Band I love</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <style>
+        header {
+            margin-bottom: 5vh;
+        }
 
 
+        .main-container {
+            vertical-align: top;
+        }
+
+        main {
+            max-width: 75vw;
+            margin-bottom: 5vh;
+            overflow: hidden;
+            float: left;
+            display: block;
+            margin-right: 2vw;
+            border-right: solid 1px #000;
+
+
+        }
+
+        main > img{
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        aside {
+            float: left;
+            display: block;
+            max-width: 20vw;
+            margin-bottom: 5vh;
+
+        }
+
+        footer {
+            width: 100%;
+            padding: 5%;
+            float: left;
+
+        }
+    </style>
 </head>
 
 <body>
 
     <header>
+        <h1>Bootstrap Example</h1>
     </header>
+    <div class="main-container">
+        <main>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png"
+                alt="image created with a mobile" />
+        </main>
+
+        <aside>
+            This is where some other info goes
+        </aside>
+    </div>
 
     <footer>
-
+        © Me, 1999
     </footer>
 
-   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

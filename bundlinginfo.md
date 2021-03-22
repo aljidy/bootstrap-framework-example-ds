@@ -72,6 +72,7 @@
  - Usually can copy paste the code
  - Not always available
  - "Faster"
+ - Code completion
 
 
 ## Docs
